@@ -1,29 +1,29 @@
 {
   "name": "sal",
   "version": "1.0.0",
-  "private": true,
-  "description": "Sal",
-  "author": "rushatgabhane",
-  "keywords": [
-    "gatsby"
-  ],
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushatgabhane/sal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rushatgabhane/sal/issues"
+  },
+  "homepage": "https://github.com/rushatgabhane/sal#readme",
   "dependencies": {
-    "gatsby": "^3.2.1",
-    "gatsby-plugin-gatsby-cloud": "^2.3.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "gatsby-plugin-postcss": "^4.3.0",
-    "postcss": "^8.2.10",
-    "tailwindcss": "^2.1.1"
+    "async": "^3.2.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.1",
+    "fs": "*"
   }
 }
